@@ -6,6 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/AXSocialShareUI.svg?style=flat)](https://cocoapods.org/pods/AXSocialShareUI)
 
 ## Example
+依赖于MonkeyKing(因为OC不能直接调用),制作的社会化社交分享UI组件
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
