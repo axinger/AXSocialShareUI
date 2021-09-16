@@ -2,7 +2,7 @@
   "name": "AXSocialShareUI",
   "version": "0.1.0",
   "summary": "A short description of AXSocialShareUI.",
-  "description": "依托MonkeyKing(因为OC不能直接条用),制作的社会化社交分享UI组件",
+  "description": "依赖于MonkeyKing(因为OC不能直接调用),制作的社会化社交分享UI组件",
   "homepage": "https://github.com/axinger/AXSocialShareUI",
   "license": {
     "type": "MIT",
@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "AXSocialShareUI/Classes/**/*",
+  "source_files": "AXSocialShareUI/Classes/**/*.{h,m,swift}",
   "private_header_files": "AXSocialShareUI/Classes/AXSocialShareUIPrivate.h",
   "resource_bundles": {
     "AXSocialShareUI": [
@@ -27,13 +27,13 @@
   },
   "dependencies": {
     "MonkeyKing": [
-      "~> 2.2.1"
+
     ],
     "AXViewControllerTransitioning": [
-      "~> 1.1.4"
+
     ],
     "Masonry": [
-      ">= 1.0.0"
+
     ]
   }
 }

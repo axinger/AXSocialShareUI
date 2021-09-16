@@ -1,9 +1,12 @@
-use_frameworks!
 
 platform :ios, '9.0'
-
+use_modular_headers!
+use_frameworks!
 target 'AXSocialShareUI_Example' do
-  pod 'AXSocialShareUI', :path => '../'
+  
+ 
+  
+  pod 'AXSocialShareUI', :path => '../' :modular_headers => true
 
   target 'AXSocialShareUI_Tests' do
     inherit! :search_paths

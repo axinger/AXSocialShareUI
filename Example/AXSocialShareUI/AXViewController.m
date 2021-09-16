@@ -9,6 +9,7 @@
 #import "AXViewController.h"
 @import AXSocialShareUI;
 @import ReactiveObjC;
+#import <AXSocialShareUI/AXSocialShareUI.h>
 @interface AXViewController ()
 
 @end
