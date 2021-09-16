@@ -1,0 +1,6 @@
+framework module AXSocialShareUI {
+  umbrella header "AXSocialShareUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

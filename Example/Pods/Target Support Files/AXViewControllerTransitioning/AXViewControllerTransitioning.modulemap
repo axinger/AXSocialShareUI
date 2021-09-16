@@ -1,0 +1,6 @@
+framework module AXViewControllerTransitioning {
+  umbrella header "AXViewControllerTransitioning-umbrella.h"
+
+  export *
+  module * { export * }
+}

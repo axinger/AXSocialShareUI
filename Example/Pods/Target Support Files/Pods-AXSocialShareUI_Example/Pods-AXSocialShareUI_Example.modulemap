@@ -1,0 +1,6 @@
+framework module Pods_AXSocialShareUI_Example {
+  umbrella header "Pods-AXSocialShareUI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,42 @@
+PODS:
+  - AXSocialShareUI (0.1.0):
+    - AXViewControllerTransitioning (~> 1.1.4)
+    - Masonry (>= 1.0.0)
+    - MonkeyKing (~> 2.2.1)
+  - AXViewControllerTransitioning (1.1.4):
+    - AXViewControllerTransitioning/Component (= 1.1.4)
+    - AXViewControllerTransitioning/Core (= 1.1.4)
+    - ReactiveObjC (>= 3.0.0)
+  - AXViewControllerTransitioning/Component (1.1.4):
+    - AXViewControllerTransitioning/Core
+    - ReactiveObjC (>= 3.0.0)
+  - AXViewControllerTransitioning/Core (1.1.4):
+    - ReactiveObjC (>= 3.0.0)
+  - Masonry (1.1.0)
+  - MonkeyKing (2.2.1)
+  - ReactiveObjC (3.1.1)
+
+DEPENDENCIES:
+  - AXSocialShareUI (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AXViewControllerTransitioning
+    - Masonry
+    - MonkeyKing
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  AXSocialShareUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AXSocialShareUI: 40f8f2eca58fd6af89fdf020d8211687701416aa
+  AXViewControllerTransitioning: ad6c58368eba7efdc0e6e5b9147b9cd23c0c1661
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MonkeyKing: 196838a3b4c97e95915f3e7046fb2d6044f06101
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+
+PODFILE CHECKSUM: 377828dd9c62943de3ab5c788f15d08bc0029ada
+
+COCOAPODS: 1.10.2
